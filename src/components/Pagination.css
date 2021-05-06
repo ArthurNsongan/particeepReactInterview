@@ -1,0 +1,25 @@
+.Pagination {
+    display: flex;
+    list-style: none;
+}
+
+.Pagination li {
+    padding: 5px 8px;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 13px;
+    margin-right: 2px;
+    height: fit-content;
+    font-weight: 600;
+}
+
+.Pagination li:hover {
+    color: red;
+}
+
+.Pagination li.active {
+    background-color: red;
+    color: white !important;
+    font-weight: 600;
+    border-color: red;
+}
